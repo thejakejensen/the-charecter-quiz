@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>charecter quiz</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
-    <script src="js/scripts.js" charset="utf-8"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumboton">
-        <h1>What celebrity are you?</h1>
-        <p>Use our super accurate quiz to find out</p>
-      </div>
-      
+<head>
+  <meta charset="utf-8">
+  <title>charecter quiz</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>What celebrity are you?</h1>
+      <p>Use our super accurate quiz to find out</p>
     </div>
-  </body>
+
+    <form class="formOne" action="index.html" method="post">
+      <h3>whats your favorite food?</h3>
+      <select class="form-control" id="food">
+        <option value="0"></option>
+        <option value="1">beets</option>
+        <option value="2">rum</option>
+        <option value="3">spaghetti</option>
+        <option value="4">carbon dioxide</option>
+      </select>
+      <br>
+      <h3>whats your favorite movie?</h3>
+      <select class="form-control" id="movie">
+        <option value="0"></option>
+        <option value="1">watching the beets grow</option>
+        <option value="2">pirates of the bean</option>
+        <option value="3">Iron Chef America (yes we know its not a movie)</option>
+        <option value="4">carbon dioxide</option>
+      </select>
+      <br>
+      <h3>whats your favorite color?</h3>
+      <select class="form-control" id="color">
+        <option value="0"></option>
+        <option value="1">brown</option>
+        <option value="2">blue</option>
+        <option value="3">red</option>
+        <option value="4">green</option>
+      </select>
+      <br>
+      <h3>whats your favorite time of day?</h3>
+      <select class="form-control" id="time">
+        <option value="0"></option>
+        <option value="1">all day</option>
+        <option value="2">when the sun is up</option>
+        <option value="3">dinner time</option>
+        <option value="4">crack of dawn</option>
+      </select>
+      <button id="charecterButton" type="button" name="button">Learn who you are!</button>
+    </form>
+  </div>
+</body>
 </html>
